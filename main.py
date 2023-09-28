@@ -1,9 +1,10 @@
 # JAMES MOSETI MOTURI SCT211-0095/2022
 
+userName = input("What is your name: ")
+
 while True:
-  userName = input("What is your name: ")
   print(f"Hello {userName}, welcome to our simple calculator")
-  choice = int(input("""What kind of calculation do you want to    perform from the list below:-
+  choice = int(input("""What kind of calculation do you want to perform from the list below:-
   1. Addition
   2. Multiplication
   3. Subtraction
